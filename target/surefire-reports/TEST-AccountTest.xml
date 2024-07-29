@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AccountTest" time="0.784" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AccountTest" time="0.728" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/viktorygorlachuk/Desktop/projects/Sprint_8/target/surefire/surefirebooter12372474816004348363.jar /Users/viktorygorlachuk/Desktop/projects/Sprint_8/target/surefire 2024-07-29T13-26-25_386-jvmRun1 surefire14307960423264267131tmp surefire_010516355520611649780tmp"/>
+    <property name="sun.java.command" value="/Users/viktorygorlachuk/Desktop/projects/Sprint_8/target/surefire/surefirebooter6948792605188861569.jar /Users/viktorygorlachuk/Desktop/projects/Sprint_8/target/surefire 2024-07-29T13-33-07_038-jvmRun1 surefire2263632494068382365tmp surefire_01904621603571917530tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/viktorygorlachuk/Desktop/projects/Sprint_8/target/test-classes:/Users/viktorygorlachuk/Desktop/projects/Sprint_8/target/classes:/Users/viktorygorlachuk/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/viktorygorlachuk/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/viktorygorlachuk/.m2/repository/io/qameta/allure/allure-junit4/2.15.0/allure-junit4-2.15.0.jar:/Users/viktorygorlachuk/.m2/repository/io/qameta/allure/allure-java-commons/2.15.0/allure-java-commons-2.15.0.jar:/Users/viktorygorlachuk/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/viktorygorlachuk/.m2/repository/io/qameta/allure/allure-model/2.15.0/allure-model-2.15.0.jar:/Users/viktorygorlachuk/.m2/repository/io/qameta/allure/allure-rest-assured/2.15.0/allure-rest-assured-2.15.0.jar:/Users/viktorygorlachuk/.m2/repository/io/qameta/allure/allure-attachments/2.15.0/allure-attachments-2.15.0.jar:/Users/viktorygorlachuk/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/viktorygorlachuk/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/viktorygorlachuk/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/viktorygorlachuk/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/viktorygorlachuk/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/viktorygorlachuk/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/viktorygorlachuk/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/viktorygorlachuk/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/viktorygorlachuk/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/viktorygorlachuk/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/viktorygorlachuk/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/viktorygorlachuk/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/viktorygorlachuk/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/viktorygorlachuk/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/viktorygorlachuk/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/viktorygorlachuk/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/viktorygorlachuk/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/viktorygorlachuk/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/viktorygorlachuk/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/viktorygorlachuk/Desktop/projects/Sprint_8/target/surefire/surefirebooter12372474816004348363.jar"/>
+    <property name="surefire.real.class.path" value="/Users/viktorygorlachuk/Desktop/projects/Sprint_8/target/surefire/surefirebooter6948792605188861569.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.23+9-LTS"/>
@@ -63,15 +63,15 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="accountTests[0]" classname="AccountTest" time="0.429"/>
-  <testcase name="accountTests[1]" classname="AccountTest" time="0.005"/>
-  <testcase name="accountTests[2]" classname="AccountTest" time="0.005"/>
-  <testcase name="accountTests[3]" classname="AccountTest" time="0.004"/>
+  <testcase name="accountTests[0]" classname="AccountTest" time="0.377"/>
+  <testcase name="accountTests[1]" classname="AccountTest" time="0.003"/>
+  <testcase name="accountTests[2]" classname="AccountTest" time="0.003"/>
+  <testcase name="accountTests[3]" classname="AccountTest" time="0.003"/>
   <testcase name="accountTests[4]" classname="AccountTest" time="0.003"/>
   <testcase name="accountTests[5]" classname="AccountTest" time="0.003"/>
-  <testcase name="accountTests[6]" classname="AccountTest" time="0.005"/>
+  <testcase name="accountTests[6]" classname="AccountTest" time="0.007"/>
   <testcase name="accountTests[7]" classname="AccountTest" time="0.002"/>
-  <testcase name="accountTests[8]" classname="AccountTest" time="0.004"/>
-  <testcase name="accountTests[9]" classname="AccountTest" time="0.003"/>
-  <testcase name="accountTests[10]" classname="AccountTest" time="0.005"/>
+  <testcase name="accountTests[8]" classname="AccountTest" time="0.005"/>
+  <testcase name="accountTests[9]" classname="AccountTest" time="0.004"/>
+  <testcase name="accountTests[10]" classname="AccountTest" time="0.003"/>
 </testsuite>
