@@ -25,6 +25,7 @@ public class AccountTest {
                 {"Тимоти", true},
                 {" Тимоти Шаламе", false},
                 {"Тимоти Шаламе ", false},
+                {"Тимоти  Шаламе", false},
                 {"Т", false},
                 {"Ти", false},
                 {"", false},
