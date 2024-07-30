@@ -21,16 +21,18 @@ public class AccountTest {
     public static Object[][] getNameAccountCard(){
         return new Object[][]{
                 {"Тимоти Шаламе", true},
-                {"Тим", true},
-                {"Тимоти", true},
+                {"Тимоти Шаламепокпсс", true},
+                {"Тим", false},
+                {"Тимоти", false},
                 {" Тимоти Шаламе", false},
                 {"Тимоти Шаламе ", false},
                 {"Тимоти  Шаламе", false},
+                {"Ти мо ти Шал аме", false},
                 {"Т", false},
                 {"Ти", false},
                 {"", false},
                 {" ", false},
-                {"dfdkhgdhgldkfglgsdglsgjsljslkgjsdj", false},
+                {"dfdkhgdhgldkfgl gsdglsgjsljslkgjsdj", false},
                 /* передаем через параметризацию в конструктор AccountTest данные - в частности
                 туда улетает переменная name*/
         };

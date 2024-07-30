@@ -18,14 +18,14 @@ public class Account {
                 countOfSpace++;
             }
         }
-        if(name.length() >= 3 & name.length() <= 19 & !name.startsWith(" ") & !name.endsWith(" ") & countOfSpace <=1 ){
+        if(name.length() >= 3 & name.length() <= 19 & !name.startsWith(" ") & !name.endsWith(" ") & countOfSpace == 1 ){
             //если длина входящей строки больше или = 3 и меньше или = 19 и не начинается на пробел
             //и не заканчивается на пробел и имеет 0 или 1 пробел (проверили наличие пробела в цикле for)
             //выдать текст ниже и результат
             System.out.println("Имя подходит");
             return true;
         }
-            System.out.println("Имя не подходит");
-            return false;
+        System.out.println("Имя не подходит");
+        return false;
     }
 }
